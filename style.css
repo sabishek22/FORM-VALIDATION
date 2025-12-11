@@ -34,6 +34,40 @@
   color: #ffffff;
 }
 
+.phone-field {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.phone-field select {
+  width: 35%;
+  height: 42px;       
+  padding: 10px 15px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.phone-field input {
+  width: 65%;
+  height: 42px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
+.phone-field select:focus,
+.phone-field input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
 
 label {
   display: block;

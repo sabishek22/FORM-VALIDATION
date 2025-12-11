@@ -11,26 +11,35 @@
       <div class="container-box">
         <h1>Registration Form</h1>
         <form id="register-form">
-
           <label>NAME</label>
           <input type="text" name="name" id="nameBox" />
           <div class="error" id="nameError"></div>
-          <br/><br/>
-
+          <br /><br />
 
           <label>EMAIL</label>
           <input type="email" name="email" id="mailBox" />
           <div class="error" id="mailError"></div>
-          <br/><br/>
+          <br /><br />
 
+          <label>Phone No</label>
+          <div class="phone-field">
+            <select id="countryCode">
+              <option value="">Code</option>
+              <option value="+91">+91</option>
+              <option value="+1">+1</option>
+              <option value="+044">+044</option>
+            </select>
+            <input type="text" id="phoneBox" />
+          </div>
+          <div class="error" id="phoneError"></div>
+          <br /><br />
 
           <label>PASSWORD</label>
           <input type="password" name="password" id="passwordBox" />
           <div class="error" id="passError"></div>
-          <br/><br/>
+          <br /><br />
 
           <button type="submit" id="btnRegister" disabled>Register</button>
-          
         </form>
       </div>
     </div>
